@@ -21,17 +21,17 @@ def window0():
 
 # I rack my brain
 def window1():
-    Window(root, 'window 1', 320, 200, -100, -150).show_lyrics(lyrics[0])
+    Window(root, 'window 1', 320, 200, -150, -150).show_lyrics(lyrics[0])
     root.after(2000, window2)
 
 # spend hours and days
 def window2():
-    Window(root, 'window 2', 320, 200, -150, -200).show_lyrics(lyrics[1])
+    Window(root, 'window 2', 320, 200, -200, -200).show_lyrics(lyrics[1])
     root.after(2300, window3)
 
 # I still can't figure it out
 def window3():
-    Window(root, 'window 3', 320, 200, -200, -150).show_lyrics(lyrics[2])
+    Window(root, 'window 3', 320, 200, -225, -150).show_lyrics(lyrics[2])
     root.after(3900, window4)
 
 # what happend that year in hour house?
@@ -86,22 +86,22 @@ def window13():
 
 # It's a heartbreak
 def window14():
-    Window(root, 'window 14', 320, 200, 250, -100).show_lyrics(lyrics[13])
+    Window(root, 'window 14', 320, 200, 275, -100).show_lyrics(lyrics[13])
     root.after(2000, window15)
 
 # marked the end of our girlhood
 def window15():
-    Window(root, 'window 15', 320, 200, 200, -200).show_lyrics(lyrics[14])
+    Window(root, 'window 15', 320, 200, 250, -150).show_lyrics(lyrics[14])
     root.after(2100, window16)
 
 # we'll never go back
 def window16():
-    Window(root, 'window 16', 320, 200, 150, -150).show_lyrics(lyrics[15])
+    Window(root, 'window 16', 320, 200, 200, -200).show_lyrics(lyrics[15])
     root.after(1400, window17)
 
 # to our castle in holly wood
 def window17():
-    Window(root, 'window 17', 320, 200, 0, 0).show_lyrics(lyrics[16])
+    Window(root, 'window 17', 320, 200, 150, -150).show_lyrics(lyrics[16])
     root.after(6000, close)
 
 def close():
